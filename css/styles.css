@@ -110,7 +110,14 @@ body {
 
 /*герой-секция*/
 
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
+  margin-bottom: 30px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36x;
@@ -121,6 +128,9 @@ body {
 }
 
 .modal-btn {
+  display: block;
+  margin: auto;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
