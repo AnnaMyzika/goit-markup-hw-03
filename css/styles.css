@@ -17,6 +17,7 @@ body {
 
 .link {
   text-decoration: none;
+  display: block;
 }
 
 .list {
@@ -65,6 +66,11 @@ body {
 
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.navigation-list-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .address-list-item:not(:last-child) {
