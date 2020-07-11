@@ -15,6 +15,24 @@ body {
   color: var(--text-light-theme-color);
 }
 
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
   display: block;
@@ -146,6 +164,8 @@ body {
 
 .features .container {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .features-list-item:not(:last-child) {
@@ -186,6 +206,22 @@ body {
 }
 
 /*услуги*/
+
+.services .container {
+  display: flex;
+}
+
+.services {
+  padding-top: 0;
+}
+
+.services-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.services-list-img {
+  margin-bottom: 27px;
+}
 
 .title {
   font-weight: 700d;
