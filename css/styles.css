@@ -144,6 +144,32 @@ body {
 
 /*особенности*/
 
+.features .container {
+  display: flex;
+}
+
+.features-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-list-img {
+  padding-top: 25px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  margin-bottom: 55px;
+}
+
+.features-list-item .subtitle {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.features-list-item .description {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .subtitle {
   font-weight: 700;
   font-size: 14px;
