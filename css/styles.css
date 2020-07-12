@@ -146,7 +146,6 @@ img {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: brown;
 }
 
 .hero-title {
@@ -180,9 +179,6 @@ img {
 }
 
 /*особенности*/
-.features {
-  background-color: chartreuse;
-}
 
 .features-list {
   display: flex;
@@ -235,7 +231,6 @@ img {
 
 .services {
   padding-top: 0;
-  background-color: coral;
 }
 
 .services-list-item:not(:last-child) {
@@ -259,10 +254,6 @@ img {
 }
 
 /*команда*/
-
-.team {
-  background-color: cyan;
-}
 
 .team-list {
   display: flex;
@@ -327,10 +318,6 @@ img {
 
 /*клиенты*/
 
-.customers {
-  background-color: darkorange;
-}
-
 .customers-list {
   display: flex;
   justify-content: space-between;
@@ -350,8 +337,59 @@ img {
 
 /*подвал-сайта*/
 
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .container {
+  display: flex;
+}
+
+.footer-coordinates {
+  margin-right: 69px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-coordinates .logo {
+  margin-bottom: 20px;
+}
+
+.footer-address-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-invitation {
+  padding-top: 72px;
+  padding-bottom: 100px;
+}
+
+.invitation-sotial-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.invitation-sotial-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+
+.invitation-sotial-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.invitation {
+  margin-bottom: 20px;
+}
+
 .logo .logo-studio {
-  /* color: #ffffff*/
+  color: #ffffff;
 }
 
 .footer-address,
@@ -361,12 +399,12 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /*color: var(--title-dark-theme-color);*/
+  color: var(--title-dark-theme-color);
 }
 
 .footer-tel,
 .footer-mail {
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .invitation {
@@ -374,7 +412,7 @@ img {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  /*color: var(--title-dark-theme-color);*/
+  color: var(--title-dark-theme-color);
 }
 
 /*портфолио*/
