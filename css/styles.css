@@ -15,6 +15,16 @@ body {
   color: var(--text-light-theme-color);
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 h1 {
   margin: 0;
 }
@@ -22,6 +32,11 @@ h1 {
 h2 {
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 .section {
@@ -131,6 +146,7 @@ img {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: brown;
 }
 
 .hero-title {
@@ -148,11 +164,14 @@ img {
 .modal-btn {
   display: block;
   margin: auto;
+  padding-top: 10px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-left: 32px;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -161,11 +180,13 @@ img {
 }
 
 /*особенности*/
+.features {
+  background-color: chartreuse;
+}
 
-.features .container {
+.features-list {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
+  justify-content: space-between;
 }
 
 .features-list-item:not(:last-child) {
@@ -207,12 +228,14 @@ img {
 
 /*услуги*/
 
-.services .container {
+.services-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .services {
   padding-top: 0;
+  background-color: coral;
 }
 
 .services-list-item:not(:last-child) {
@@ -237,6 +260,57 @@ img {
 
 /*команда*/
 
+.team {
+  background-color: cyan;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-list-item-img {
+  margin-bottom: 30px;
+}
+
+.team-list-item-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.team-list-item-position {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.sotial-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sotial-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.sotial-list-item {
+  padding-bottom: 25px;
+}
+
+.sotial-list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+}
+
 .team-list-item-name,
 .team-list-item-position {
   font-weight: 500;
@@ -252,6 +326,27 @@ img {
 }
 
 /*клиенты*/
+
+.customers {
+  background-color: darkorange;
+}
+
+.customers-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customers-list-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+}
+
+.customers-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 
 /*подвал-сайта*/
 
