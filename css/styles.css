@@ -239,6 +239,7 @@ img {
 
 .services-list-img {
   margin-bottom: 27px;
+  width: 370px;
 }
 
 .title {
@@ -266,6 +267,7 @@ img {
 
 .team-list-item-img {
   margin-bottom: 30px;
+  width: 270px;
 }
 
 .team-list-item-name {
@@ -416,6 +418,60 @@ img {
 }
 
 /*портфолио*/
+
+.portfolio-filter-list {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-filter-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.portfolio-filter-list-button {
+  padding: 6px 22px;
+}
+
+.portfolio-filter-list-item {
+  margin-bottom: 50px;
+}
+
+.portfolio-gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-gallery-list-item {
+  /* width: 370px; */
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio-gallery-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-gallery-list-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.portfolio-gallery-list-img {
+  margin-bottom: 20px;
+}
+
+.portfolio-gallery-title {
+  margin-bottom: 4px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.portfolio-gallery-description {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
 
 .portfolio-filter-list-button {
   font-weight: 500;
