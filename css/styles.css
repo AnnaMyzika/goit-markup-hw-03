@@ -34,6 +34,10 @@ h2 {
   margin-bottom: 50px;
 }
 
+.subtitle {
+  margin: 0;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -46,6 +50,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link {
@@ -153,7 +159,7 @@ img {
 
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36x;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -243,7 +249,7 @@ img {
 }
 
 .title {
-  font-weight: 700d;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
@@ -255,6 +261,10 @@ img {
 }
 
 /*команда*/
+
+.team {
+  background-color: #f5f4fa;
+}
 
 .team-list {
   display: flex;
@@ -329,8 +339,17 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+
   width: 170px;
   height: 90px;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.customers-list-item-link:hover {
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
 }
 
 .customers-list-item:not(:last-child) {
@@ -422,6 +441,7 @@ img {
 .portfolio-filter-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .portfolio-filter-list-item:not(:last-child) {
@@ -430,10 +450,6 @@ img {
 
 .portfolio-filter-list-button {
   padding: 6px 22px;
-}
-
-.portfolio-filter-list-item {
-  margin-bottom: 50px;
 }
 
 .portfolio-gallery-list {
